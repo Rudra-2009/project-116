@@ -1,0 +1,14 @@
+canvas{
+    animation-name:example;
+    animation-duration:4s;
+    animation-iteration-count: infinite;
+    border: 100px;
+}
+@keyframes example{
+    from{box-shadow: 1px 1px 38px black ;}
+    to{box-shadow: 1px 1px 38px gray ;}
+}
+label{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 75;
+}
